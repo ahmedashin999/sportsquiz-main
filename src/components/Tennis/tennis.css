@@ -1,0 +1,174 @@
+.tennis {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  flex-direction: column;
+}
+.tennis-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.ques-count {
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.logo {
+  width: 200px;
+  margin: auto;
+  height: 100px;
+}
+.quiz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+
+  border-radius: 15px;
+  width: 500px;
+}
+@media only screen and(max-width:520px) {
+  .quiz {
+    box-shadow: none;
+    border-radius: none;
+  }
+}
+.question-text {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: ari;
+}
+.answer-section {
+  width: 600px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 500px) {
+  .answer-section {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
+button {
+  width: 60%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  justify-self: center;
+
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+button:hover {
+  background: teal;
+}
+.submit {
+  background: #ee4e14;
+  width: 120px;
+  color: #fff;
+}
+
+.submit:hover {
+  transition: 0.5s all ease-in-out;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+
+  border-radius: 15px;
+  width: 500px;
+}
+.result h1 {
+  font-size: 60px;
+  color: #ee4e14;
+}
+.result p {
+  font-weight: bold;
+}
+.small {
+  font-size: 12px;
+  font-weight: lighter;
+  color: gray;
+  margin-top: 15px;
+}
+.sign-up {
+  width: 150px;
+  background-color: #ee4e14;
+  color: #fff;
+}
+@media screen and (max-width: 500px) {
+  .result {
+    width: 90%;
+    font-size: 14px;
+  }
+}
+
+.touch {
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+input {
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #ccc;
+  color: #333;
+}
+.strong {
+  font-weight: bold;
+  color: #333;
+  margin-top: 15px;
+}
+p {
+  color: #333;
+  margin-top: -10px;
+}
+.form-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding: 20px;
+}

@@ -1,0 +1,21 @@
+.utn{
+    padding:30px;
+}
+
+.logo{
+    width:200px !important;
+
+
+    margin:auto;
+    height:150px;
+}
+.btn{
+    width:150px;
+    text-decoration: none;
+    padding:15px;
+    color:#fff;
+    background-color: #ee4e14;
+}
+ .note{
+     color:#ee4e14;
+ }

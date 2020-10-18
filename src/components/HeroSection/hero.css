@@ -1,0 +1,102 @@
+.hero {
+  background: url("../Images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* font-family: 'Times New Roman', Times, serif; */
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  height: 700px;
+  z-index: 1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.hero-content {
+  z-index: 3;
+  max-width: 1200px;
+  position: absolute;
+  padding: 8px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first {
+  color: #ee4e14;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+.second {
+  color: #333;
+  margin-top: 0px;
+  font-size: 30px;
+  text-align: center;
+  max-width: 600px;
+  font-weight: 300;
+}
+.pick {
+  color: #ee4e14;
+  margin-top: -5px;
+  font-size: 14px;
+  text-align: center;
+  max-width: 600px;
+}
+.HeroBtnWrapper {
+  margin-top: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  justify-content: center;
+
+  align-items: center;
+}
+.btn {
+  border-radius: 5px;
+  background: #ee4e14;
+   
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  /* width: 150px; */
+  text-align: center;
+  
+   padding:12px  !important;
+   font-weight: bold;
+}
+.btn:hover {
+  transition: all o.2s ease-in-out;
+  opacity: 0.8;
+}
+.grade{
+  margin-top: -50px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 520px) {
+  .HeroBtnWrapper {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+   .btn {
+    font-size: 18px;
+    padding: 3px 10px;
+  } 
+}
+@media screen and (max-width: 400px) {
+    .first{
+        font-size: 15px;
+
+    }
+    .second{
+        font-size: 15px;
+    }
+}
