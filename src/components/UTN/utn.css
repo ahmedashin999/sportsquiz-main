@@ -14,7 +14,7 @@
     text-decoration: none;
     padding:15px;
     color:#fff;
-    background-color: #ee4e14;
+    background-color: #ee4e14 !important;
 }
  .note{
      color:#ee4e14;

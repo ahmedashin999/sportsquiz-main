@@ -5,12 +5,13 @@ import {useSpring, animated} from 'react-spring'
 import {FaChevronLeft} from 'react-icons/fa';
 import {BsChevronDoubleLeft} from 'react-icons/bs';
 import '../css/quiz.css'
+
  
 import Progress from '../Progress'
 import logo from '../Images/TennisGrading Logo_A1.svg'
 function Tennis() {
-    const props =useSpring({opacity: 1, marginTop:0,transition:'0.2s all ease-in', from:{opacity:0, marginTop:'-500px'}})
- const[style,setStyle]=useState({})
+      const props =useSpring({opacity: 1, marginTop:0,transition:'0.2s all ease-in', from:{opacity:0, marginTop:'-500px'}})
+  const[style,setStyle]=useState({})
 
   const[currentQuestion,setCurrentQuestion]=useState(0);
   const [showScore,setShowScore]=useState(false);
@@ -87,16 +88,19 @@ function Tennis() {
                  </div>
             <div     className="quiz">
                  
-            <div className="question-section">
+            <div className="question-section"
+             
+            >
  
                 <div className="question-text">
                     
                     {tennisData[currentQuestion].questionText}
                 </div>
             </div>
-            <div className="answer-section">
+            <div  
+              className="answer-section">
                 {tennisData[currentQuestion].answerOptions.map((answerOption)=>(
-                    <button onClick={()=>handleAnswerOptionClick(answerOption.ansPoint)}>
+                    <button   onClick={()=>handleAnswerOptionClick(answerOption.ansPoint)}>
                         {answerOption.answerText}
                     </button>
                 ))}
