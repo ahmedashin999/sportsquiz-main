@@ -7,6 +7,7 @@
   background-position: center;
   display: flex;
   flex-direction: column;
+  height:110vh;
   
 }
 .nav{
@@ -38,7 +39,7 @@
   text-align: center;
   max-width: 600px;
   font-weight: lighter;
-  line-height: 2.5rem;
+  line-height: 2rem;
 }
 .pick {
   color: #ee4e14;
@@ -95,8 +96,12 @@
     font-size: 16px !important;
     padding: 8px 10px !important;
   } 
+  .first{
+    margin-bottom: 20px;
+  }
   .first,.second {
-    font-size: 25px;
+    font-size: 20px;
+    line-height: 1.5rem;
   }
 }
 @media screen and (max-width: 400px) {

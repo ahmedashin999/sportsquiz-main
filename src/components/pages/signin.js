@@ -1,6 +1,4 @@
 import React from 'react'
-import '../Tennis/tennis.css'
-import '../Soccer/soccer.css'
 import '../css/quiz.css'
 import logo from '../Images/SportsGrading.svg';
 import {Link} from 'react-router-dom'
@@ -15,8 +13,8 @@ function SigninPage() {
                  </Link>
                 </div>
         <form className="form">
-           <h3 className="strong">Thank you for Optiong in</h3>
-           <p>We dont't spam, it is not our style</p>
+           <h3 className="strong">Thank you for Opting in</h3>
+           <p>We don't spam, it is not our style</p>
            <p>You can opt out anytime</p>
           <input type="text" placeholder="Name"/>  
           <input type="email" placeholder="Email"/>

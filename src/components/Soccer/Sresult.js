@@ -1,6 +1,7 @@
  import React from 'react'
-import '../Tennis/tennis.css';
-import '../Soccer/soccer.css'
+// import '../Tennis/tennis.css';
+// import '../Soccer/soccer.css'
+import '../css/quiz.css'
 import logo from '../Images/SoccerGrading Logo_A1.svg'
 import ProgressCompleted from '../Progress/ProgressCompleted'
 import {Link} from 'react-router-dom'

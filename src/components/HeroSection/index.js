@@ -11,7 +11,8 @@ const HeroSection = () => {
              <Navbar className="nav"/>
             <div className="hero-content">
                 <h1 className="first"> HOW GOOD ARE YOU AT SPORT?</h1>
-                <h1 className="second">Take our Quick (10) Question Quiz and Get your Universal Sports Number (USN)</h1>
+                <h1 className="second">Take our Quick (10) Question Quiz </h1>
+                <h1 className="second">and Get your Universal Sports Number (USN)</h1>
                 <p className="pick">Pick Your Sport</p>
                    <div className="HeroBtnWrapper">
                        <Link className="btn" to="/get-your-utn">
