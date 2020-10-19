@@ -5,13 +5,7 @@ import styled from 'styled-components';
  flex-direction:column;
  justify-content:center;
  align-item:center;
- 
- 
 background:#fff;
-
-
-  
- 
  
  `;
  export const HeroIntro=styled.div`
@@ -37,7 +31,7 @@ background:#fff;
  
  `
  export const Infop4=styled.p`
- 
+    text-align:'center'
  `
   export const HeroPic=styled.div`
   

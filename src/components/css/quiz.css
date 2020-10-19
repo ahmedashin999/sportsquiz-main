@@ -1,16 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
 .quiz-start {
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  /* height: 105vh; */
   width: 100%;
   opacity: 0.9;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .quiz-heading {
   display: flex;
@@ -24,11 +25,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: -30px;
 }
 .ques-count {
-  margin-top: -10px;
+  margin-top: -6px !important;
   margin-bottom: 15px;
-  font-weight: bold;
+ 
+  font-family: 'Poppins', sans-serif;
+  font-weight:400 !important;
 }
 .logo {
   width: 300px;
@@ -37,10 +41,13 @@
 }
 .logo-btn {
   border:none;
-  background-color: transparent !important;
+  background-color:  #fff !important;
+  margin-right: 15px;
+  cursor: pointer;
 }
 .logo-btn:hover{
-  background-color: transparent !important;
+  background-color: #fff !important;
+  color:#ee4e14 !important
 }
   
 .icon:hover{
@@ -64,15 +71,18 @@ color:#ee4e14 !important;
 
   border-radius: 15px;
   width: 500px;
+    
   
 }
+ 
 
 .question-text {
   font-size: 22px !important;
   margin-bottom: 20px;
   color: #333;
-  font-weight: 300 !important;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold !important;
+  
   text-align: center;
 }
 @media screen and (max-width: 520px) {
@@ -111,7 +121,8 @@ color:#ee4e14 !important;
   background-color: #ee4e14 !important;
 }
 .sign-up:hover{
- transition: 0.2s all ease-in;
+  opacity: 0.8;
+ transition: 0.2s all ease-in !important;
 }
 button {
   width: 60%;
@@ -125,8 +136,8 @@ button {
   background-color: #eeeeee !important;
   color: #333;
   cursor: pointer;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300 !important;
  
      
     
@@ -156,12 +167,14 @@ result-heading {
 
 .submit {
   background: #ee4e14 !important;
-  width: 120px;
+  width: 130px;
   color: #fff;
+  margin-top: 25px;
 }
 
 .submit:hover {
-  transition: 0.5s all ease-in-out;
+opacity:0.8;
+  transition: 0.2s all ease-in-out;
 }
 .result {
   display: flex;
@@ -173,9 +186,13 @@ result-heading {
   border-radius: 50px;
   background: #ffffff;
   box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
-height:400px;
+height:450px;
   border-radius: 15px;
   width: 400px;
+  font-family: 'Poppins', sans-serif;
+}
+.result h4{
+  margin-top: 40px !important;
 }
 .result h1 {
   font-size: 150px;
@@ -185,6 +202,7 @@ height:400px;
 }
 .result p {
   font-weight: bold;
+  margin-bottom: 45px;
 }
 .small {
   font-size: 12px;
@@ -243,17 +261,19 @@ p {
 .form {
   display: flex;
   flex-direction: column;
-
+margin-top: 20px !important;
   align-items: center;
   padding: 20px;
   border-radius: 50px;
   background: #ffffff;
   box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
-
+  font-family: 'Poppins', sans-serif;
   border-radius: 15px;
   width: 500px;
 } 
-
+.form p{
+  font-weight: lighter;
+}
 @media screen and (max-width: 520px) {
   .form{
     box-shadow: none !important;

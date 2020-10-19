@@ -17,8 +17,6 @@ function Progress({done}) {
     return (
         <div className="progress">
 			<div className="progress-done"  style={style}>
-				
-				 
 			</div>
 		</div>
     )

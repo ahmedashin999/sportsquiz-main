@@ -36,9 +36,11 @@ function Sresult({score}) {
        } 
     return (
      <div className="result-heading">
-                          <div className="logo-header">
+            <div className="logo-header">
                  
-                <img src={logo} alt=""className="logo"/>
+           <Link to="/">
+                 <img src={logo} alt=""className="logo"/>
+                 </Link>
                 
                 </div>
         <ProgressCompleted/>
@@ -49,17 +51,19 @@ function Sresult({score}) {
     <h4>Congratulations- Your USN is:</h4> 
     <h1>{grade}</h1>
 
-              <p>Keep practicing to get to a USN 5</p>
+    { grade > 1 ? (
+              <p>Keep practicing to get to a USN {grade -1}</p>
+         ):(
+              <p>Congratulations you are the best</p>
+
+         )}
                
               
            
- <Link to="/signup">
- <button className="sign-up">Sign Up</button>
- </Link> 
-                       
-                        
-                          <p className="small">Sign Up for some free sports tips</p>
-                       
+    <Link to="/signup">
+       <button className="sign-up">Sign Up</button>
+    </Link>                    
+     <p className="small">Sign Up for some free sports tips</p>                
        </div>
        </div>
     )

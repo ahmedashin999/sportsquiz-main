@@ -5,20 +5,16 @@ import logo from '../Images/SoccerGrading Logo_A1.svg'
 import {useSpring, animated} from 'react-spring'
 import '../css/quiz.css';
 import {FaChevronLeft} from 'react-icons/fa';
-import {BsChevronDoubleLeft} from 'react-icons/bs';
+import {Link} from 'react-router-dom';
 import Progress from '../Progress';
 function Soccer() {
+    const[style,setStyle]=useState({})
     const props =useSpring({opacity: 1, marginTop:0,transition:'0.2s all ease-in', from:{opacity:0, marginTop:'-500px'}})
   const[currentQuestion,setCurrentQuestion]=useState(0);
   const [showScore,setShowScore]=useState(false);
   const[score,setScore]=useState(0);
   const[done,setDone]=useState(0);
-  const handlePrevQues =()=>{
-      const prevQues =currentQuestion -1;
-      if(prevQues < questions.length && prevQues >= 0){
-          setCurrentQuestion(prevQues);
-      }
-  }
+  
  const handleAnswerOptionClick =(ansPoint)=>{
     setDone(Math.floor(done + 9.901))
      if(ansPoint){
@@ -33,6 +29,19 @@ function Soccer() {
      }
     
  }
+ const handlePrevQues =()=>{
+    const prevQues =currentQuestion -1;
+    if(prevQues < questions.length && prevQues >= 0){
+        setCurrentQuestion(prevQues);
+    }
+    if(prevQues === 0) {
+      setDone(0);
+       
+  }else{
+      setDone(Math.floor(done - 9.901))
+  } 
+}
+
     return (
         <animated.div style={props} className="quiz-start">
         {showScore ? (
@@ -49,12 +58,10 @@ function Soccer() {
                         <button className="logo-btn" onClick={handlePrevQues}   > <FaChevronLeft className="icon"/> </button>
                      ): ''
                  }
-                <img src={logo} alt=""className="logo"/>
-                {
-                     currentQuestion > 0 ? (
-                        <button className="logo-btn" onClick={handlePrevQues}   > <BsChevronDoubleLeft className="icon icon-2"/> </button>
-                     ): ''
-                 }
+                  <Link to="/">
+                 <img src={logo} alt=""className="logo"/>
+                 </Link>
+                
                 </div>
             <Progress done={done}/>
             <div className="ques-count">
@@ -66,7 +73,7 @@ function Soccer() {
                     }
                  </div>
             </div>
-            <div className="quiz">
+            <div style={style} className="quiz">
                    
             <div className="question-section">
                

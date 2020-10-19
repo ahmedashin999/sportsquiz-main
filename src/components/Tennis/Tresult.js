@@ -37,9 +37,11 @@ function Tresult({score}) {
      <div className="result-heading">
                 <div className="logo-header">
  
-                <img src={logo} alt=""className="logo"/>
+                <Link to="/">
+                 <img src={logo} alt=""className="logo"/>
+                 </Link>
                 </div>
-  <ProgressCompleted/>
+        <ProgressCompleted/>
 
   <div className="result">
     
@@ -47,7 +49,12 @@ function Tresult({score}) {
      <h4>Congratulations- Your USN is:</h4> 
      <h1>{grade}</h1>
 
-        <p>Keep practicing to get to a USN 5</p>
+         { grade > 1 ? (
+              <p>Keep practicing to get to a USN {grade -1}</p>
+         ):(
+              <p>Congratulations you are the best</p>
+
+         )}
          
         
        
