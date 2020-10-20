@@ -37,7 +37,7 @@
        ]
     },
     {
-       "questionText":"Q1.What is dribbling in soccer? ",
+       "questionText":"Q1. What is dribbling in soccer? ",
        "answerOptions":[
           {
              "answerText":"Passing the ball over distance ",
@@ -58,7 +58,7 @@
        ]
     },
     {
-       "questionText":"Q2.How many hours do you train/play per week? ",
+       "questionText":"Q2. How many hours do you train/play per week? ",
        "answerOptions":[
           {
              "answerText":"0-1hr per week ",
@@ -79,7 +79,7 @@
        ]
     },
     {
-       "questionText":"Q3.Have you ever had a coach? ",
+       "questionText":"Q3. Have you ever had a coach? ",
        "answerOptions":[
           {
              "answerText":"Yes ",
@@ -92,7 +92,7 @@
        ]
     },
     {
-       "questionText":"Q4.What is the best way to trap a soccer ball? ",
+       "questionText":"Q4. What is the best way to trap a soccer ball? ",
        "answerOptions":[
           {
              "answerText":"I do not know ",
@@ -113,7 +113,7 @@
        ]
     },
     {
-       "questionText":"Q5.How many times can you juggle a soccer ball ? ",
+       "questionText":"Q5. How many times can you juggle a soccer ball ? ",
        "answerOptions":[
           {
              "answerText":"10 plus ",
@@ -130,7 +130,7 @@
        ]
     },
     {
-       "questionText":"Q6.How far can you kick a soccer ball ",
+       "questionText":"Q6. How far can you kick a soccer ball ",
        "answerOptions":[
           {
              "answerText":"Not very far ",
@@ -147,7 +147,7 @@
        ]
     },
     {
-       "questionText":"Q7.Passing skills ",
+       "questionText":"Q7. Passing skills ",
        "answerOptions":[
           {
              "answerText":"I am not accurate with my passing ",
@@ -164,7 +164,7 @@
        ]
     },
     {
-       "questionText":"Q8.Defense or Attack? ",
+       "questionText":"Q8. Defense or Attack? ",
        "answerOptions":[
           {
              "answerText":"I am an attacking type of player ",
@@ -185,7 +185,7 @@
        ]
     },
     {
-       "questionText":"Q9.Anticipation ",
+       "questionText":"Q9. Anticipation ",
        "answerOptions":[
           {
              "answerText":"I anticipate well ",
@@ -202,7 +202,7 @@
        ]
     },
     {
-       "questionText":"Q10.What is the highest competitive level you have played at? ",
+       "questionText":"Q10. What is the highest competitive level you have played at? ",
        "answerOptions":[
           {
              "answerText":"I have not played a competition yet ",

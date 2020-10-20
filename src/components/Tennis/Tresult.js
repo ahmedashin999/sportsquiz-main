@@ -1,6 +1,6 @@
 import React from 'react'
 import './tennis.css'
- import logo from '../Images/TennisGrading Logo_A1.svg'
+ import logo from '../Images/Tennis.svg'
 import ProgressCompleted from '../Progress/ProgressCompleted';
 import {Link} from 'react-router-dom'
  

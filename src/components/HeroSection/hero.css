@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
-
-.hero {
+.hero-head{
   background: url("../Images/landing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height:100vh;
+  object-fit: cover;
+}
+.hero {
+  
   display: flex;
   flex-direction: column;
-  height:110vh;
-  
+ 
 }
-.nav{
-  
-}
+ 
 .hero-content {
   margin: 0 auto ;
   margin-top: 50px;
@@ -104,6 +105,10 @@
     line-height: 1.5rem;
   }
 }
+.created {
+  text-align: center;
+  color:gray
+}
 @media screen and (max-width: 400px) {
     .first{
         font-size: 15px;
@@ -111,5 +116,8 @@
     }
     .second{
         font-size: 15px;
+    }
+    .created {
+      font-size:15px;
     }
 }

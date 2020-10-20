@@ -7,6 +7,9 @@ const HeroSection = () => {
    
     
     return (
+       <div className="hero-head"> 
+
+
         <div className="hero">
              <Navbar className="nav"/>
             <div className="hero-content">
@@ -25,7 +28,9 @@ const HeroSection = () => {
                        <br/>
                    </div>
                    <p className="grade">27,000 Graded So Far</p>
+                   <p className="created">Created by Stewart Whicker</p>
             </div>
+        </div>
         </div>
     )
 }

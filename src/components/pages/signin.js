@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/quiz.css'
-import logo from '../Images/SportsGrading.svg';
+import logo from '../Images/Sports.svg';
 import {Link} from 'react-router-dom'
 
 

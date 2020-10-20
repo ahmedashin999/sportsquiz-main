@@ -40,6 +40,10 @@
 }
 p {
   line-height: 1.6rem;
+  /* margin-top: 15px !important; */
+}
+.margin{
+  margin-bottom: 25px;
 }
 .note {
   color: #ee4e14;

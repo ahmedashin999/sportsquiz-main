@@ -5,10 +5,8 @@ import {useSpring, animated} from 'react-spring'
 import {FaChevronLeft} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 import '../css/quiz.css'
-
- 
 import Progress from '../Progress'
-import logo from '../Images/TennisGrading Logo_A1.svg'
+import logo from '../Images/Tennis.svg'
 function Tennis() {
       const props =useSpring({opacity: 1, marginTop:0,transition:'0.2s all ease-in', from:{opacity:0, marginTop:'-500px'}})
   const[style,setStyle]=useState({})
@@ -28,6 +26,7 @@ function Tennis() {
          setScore(score+ansPoint)
          
      }
+     
        
      
      
@@ -90,8 +89,7 @@ function Tennis() {
             <div     className="quiz">
                  
             <div className="question-section"
-             
-            >
+ >
  
                 <div className="question-text">
                     

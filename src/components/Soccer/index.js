@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import questions from './SoccerData.json'
 import Sresult from './Sresult'; 
-import logo from '../Images/SoccerGrading Logo_A1.svg'
+import logo from '../Images/Soccer.svg'
 import {useSpring, animated} from 'react-spring'
 import '../css/quiz.css';
 import {FaChevronLeft} from 'react-icons/fa';
@@ -52,10 +52,10 @@ function Soccer() {
         ):( 
         <>
             <div className="quiz-heading">
-                <div className="logo-header">
+                <div className="logo-head">
                  {
                      currentQuestion > 0 ? (
-                        <button className="logo-btn" onClick={handlePrevQues}   > <FaChevronLeft className="icon"/> </button>
+                        <button className="logo-btn-soccer" onClick={handlePrevQues}   > <FaChevronLeft className="icon"/> </button>
                      ): ''
                  }
                   <Link to="/">
